@@ -11,7 +11,7 @@ function sumOfNumbers(arrayOfNumbers) {
 assignment.sumOfNumbers = sumOfNumbers;
 
 function countEvenNumbers(arrayOfNumbers) {
-		let even =arrayOfNumbers.filter(x => x % 2 === 0)
+		let even =arrayOfNumbers.filter(x => x % 2 === 0);
 		return even;
     /*return arrayOfNumbers.length;*/
 }
